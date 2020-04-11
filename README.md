@@ -17,4 +17,4 @@ The goal was to develop a ReactJS frontend, to show the repositories for the por
 - [X] Should be able to add new repository;
 - [X] Should be able to remove repository;
 
-![]()
+![](https://github.com/jenifferazevedo/gostack-challenge03/blob/master/docs/test.JPG)
