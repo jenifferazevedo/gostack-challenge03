@@ -19,7 +19,8 @@ function App() {
       techs: ["React", "Node.js"]
     });
     const repository = response.data;
-    setRepositories([...repositories, repository])
+
+    setRepositories([...repositories, repository]);
   }
 
   async function handleRemoveRepository(id) {
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div>
+      <h1>Front-end challenge!</h1>
       <ul data-testid="repository-list">
       {repositories.map(repository => <li key={repository.id}>
         <div>
@@ -42,6 +44,9 @@ function App() {
       </li>)}
       </ul>
       <button onClick={handleAddRepository}>Adicionar</button>
+      <footer>Codigo feito para o desafio 03 do GoStack!
+        Veja mais na <a href="https://github.com/jenifferazevedo/gostack-challenge03">documentação</a>!
+      </footer>
     </div>
   );
 }

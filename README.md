@@ -1,5 +1,11 @@
 # 🚀Challenge 03 - GoStack!
 
+## Quick Start
+To see and use this aplication.
+- First install the dependencies in the initial folder and in the backend folder, with: **yarn**
+- In the initial folder only need to start the server with: **yarn run server**
+- And finally start the react front-end with: **yarn start**
+
 ## Frontend challenge about repositories in the portfolio!
 The goal was to develop a ReactJS frontend, to show the repositories for the portfolio.
 - [X] Develop functionalities;
