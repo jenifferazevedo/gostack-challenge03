@@ -18,6 +18,8 @@ The goal was to develop a ReactJS frontend, to show the repositories for the por
 
 - DELETE: Delete the respective repository.
 
+![](https://github.com/jenifferazevedo/gostack-challenge03/blob/master/docs/frontend.JPG)
+
 ### Tests
 
 - [X] Should be able to add new repository;

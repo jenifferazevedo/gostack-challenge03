@@ -26,6 +26,16 @@ div li div {
   width: auto;
 }
 
+.techs {
+  display: flex;
+  flex-direction: row;
+}
+.techs p {
+  margin: 2px;
+  padding: 5px;
+  color: #fff;
+  background-color: #7159c1;
+}
 div li + li {
   margin-top: 15px;
 }
